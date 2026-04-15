@@ -1,4 +1,4 @@
-# <img src="logochaos101.png" width="45" align="center"> Chaos 101
+# <img src="logochaos101.png" width="70" align="center"> Chaos 101
 
 Welcome to **Chaos 101**, an interactive project developed at **Grenoble INP - Phelma** to bridge the gap between abstract mathematics and physical reality.
 
