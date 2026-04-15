@@ -1,8 +1,4 @@
-# Chaos 101
-
-<p align="center">
-  <img src="logochaos101.png" alt="Chaos 101 Logo" width="300">
-</p>
+# <img src="logochaos101.png" width="45" align="center"> Chaos 101
 
 Welcome to **Chaos 101**, an interactive project developed at **Grenoble INP - Phelma** to bridge the gap between abstract mathematics and physical reality.
 
@@ -10,7 +6,7 @@ We provide a tangible educational experience to explore how deterministic rules 
 
 ---
 
-## 🌀 Chaos for Everyone:An Intuitive Introduction
+## 🌀 Chaos for Everyone: An Intuitive Introduction
 If you are new to this topic, here is a simple way to understand what we are working on:
 
 ### 1. Deterministic but Unpredictable
