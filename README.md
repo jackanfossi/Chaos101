@@ -1,4 +1,4 @@
-# <img src="logochaos101.png" width="120" align="center"> Chaos 101
+# <img src="technicals/logochaos101.png" width="120" align="center"> Chaos 101
 
 Welcome to **Chaos 101**, an interactive project developed at **Grenoble INP - Phelma** to bridge the gap between abstract mathematics and physical reality.
 
@@ -30,7 +30,7 @@ In this project, you will find:
 * **Open-Source Access:** Full technical documentation and a guide to set up the experience autonomously.
 ### Functional Diagram
 <p align="center">
-  <img src="def.png" alt="Chaos 101 Functional Diagram" width="700">
+  <img src="technicals/def.png" alt="Chaos 101 Functional Diagram" width="700">
 </p>
 
 ---
