@@ -1,8 +1,16 @@
 # Chaos 101
-Welcome to **Chaos 101**, an interactive project developed at **Grenoble INP - Phelma** to bridge the gap between abstract mathematics and physical reality.We provide a tangible educational experience to explore how deterministic rules can lead to completely unpredictable behavior.Through our custom electronic circuit and Wi-Fi visualization system, you can discover the "order hidden behind chaos" and its vital role in modern technologies like secure data encryption.
+
+<p align="center">
+  <img src="logochaos101.png" alt="Chaos 101 Logo" width="500">
+</p>
+
+Welcome to **Chaos 101**, an interactive project developed at **Grenoble INP - Phelma** to bridge the gap between abstract mathematics and physical reality.
+
+We provide a tangible educational experience to explore how deterministic rules can lead to completely unpredictable behavior. Through our custom electronic circuit and Wi-Fi visualization system, you can discover the **"order hidden behind chaos"** and its vital role in modern technologies like secure data encryption.
+
 ---
 
-## 🌀 Chaos Explained (Simply!)
+## 🌀 Chaos for Everyone:An Intuitive Introduction
 If you are new to this topic, here is a simple way to understand what we are working on:
 
 ### 1. Deterministic but Unpredictable
@@ -24,5 +32,8 @@ In this project, you will find:
 * **Practical Application (TRNG):** A demo of a True Random Number Generator to showcase the relevance of chaos theory in technology and security.
 * **Autonomous Power Supply:** The entire system features an autonomous power supply to ensure maximum portability for events.
 * **Open-Source Access:** Full technical documentation and a guide to set up the experience autonomously.
-
+### Functional Diagram
+<p align="center">
+  <img src="def.png" alt="Chaos 101 Functional Diagram" width="700">
+</p>
 ---
