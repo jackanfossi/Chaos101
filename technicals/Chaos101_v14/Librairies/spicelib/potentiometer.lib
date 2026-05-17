@@ -1,0 +1,9 @@
+* Simple generic model for a potentiometer
+* Parameters are total resistance (r) and wiper (pos).
+.subckt potentiometer 1 2 3 params: pos=.5 r=100k
+.param w=limit(pos,1m,.999)
+R1 1 2 {r*(1-w)}
+R2 2 3 {r*w}
+*.model RV1 potentiometer( r=r position=pos )
+*A NC--1 NC--2 NC--3 RV1
+.ends

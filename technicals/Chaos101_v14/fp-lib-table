@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "LIB_CMS_PHELMA") (type "KiCad") (uri "${KIPRJMOD}/Librairies/02-Empreintes/LIB_CMS_PHELMA.pretty") (options "") (descr ""))
+	(lib (name "LIB_TR_PHELMA") (type "KiCad") (uri "${KIPRJMOD}/Librairies/02-Empreintes/LIB_TR_PHELMA.pretty") (options "") (descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "composants-Phelma-S5") (type "KiCad") (uri "${KIPRJMOD}/Librairies/01-Composants/composants-Phelma-S5.kicad_sym") (options "") (descr ""))
+	(lib (name "composants-Phelma-S6") (type "KiCad") (uri "${KIPRJMOD}/Librairies/01-Composants/composants-Phelma-S6.kicad_sym") (options "") (descr ""))
+)

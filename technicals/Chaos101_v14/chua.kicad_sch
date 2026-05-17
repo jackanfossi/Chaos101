@@ -1,0 +1,9100 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "81aafc8c-cd5d-4803-b7f6-f9e93c2381b7")
+	(paper "A4")
+	(title_block
+		(title "Chua Circuit")
+		(date "23/04/2026")
+	)
+	(lib_symbols
+		(symbol "composants-Phelma-S5:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10n"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "composants-Phelma-S5:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LIB_TR_PHELMA:PinHeader_1x02_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=1 2=2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "SPICE"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Params" "type=\"J\" model=\"Conn_01x02\" lib=\"\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "composants-Phelma-S5:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LIB_TR_PHELMA:PinHeader_1x03_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=1 2=2 3=3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "SPICE"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Params" "type=\"J\" model=\"Conn_01x03\" lib=\"\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "composants-Phelma-S5:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "composants-Phelma-S5:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "composants-Phelma-S5:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1K"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LIB_TR_PHELMA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "composants-Phelma-S5:TL082"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL082"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LIB_TR_PHELMA:DIP-8_W7.62mm_Socket_LongPads"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Name" "kicad_builtin_opamp_dual"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Params" "POLE=40 GAIN=100K VOFF=0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TL082_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL082_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL082_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+9V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+9V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+9V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+9V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+9V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-9V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-9V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-9V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-9V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-9V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "RV2"
+		(exclude_from_sim no)
+		(at 94.488 133.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1874d69c-1ae0-4c58-b9fc-b6f9f578ce2a")
+	)
+	(text "SWITCH"
+		(exclude_from_sim no)
+		(at 121.412 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23e14782-9a3b-4a7c-afa7-3c74cbd7e0e9")
+	)
+	(text "SWITCH"
+		(exclude_from_sim no)
+		(at 178.562 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e047a0c-3576-4407-8080-456d4b9d20e4")
+	)
+	(text "RV1"
+		(exclude_from_sim no)
+		(at 175.514 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "651622e9-e8e2-4905-ae17-32cb1fa36f46")
+	)
+	(text "SWITCH"
+		(exclude_from_sim no)
+		(at 34.798 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a60b96e1-9a41-450e-8b73-cf6e01ef4bc2")
+	)
+	(junction
+		(at 96.52 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ac0fc7-fef6-4461-a95b-f8f19f24466b")
+	)
+	(junction
+		(at 218.44 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a8334b3-e4ee-4241-bb17-21fe77a87fa1")
+	)
+	(junction
+		(at 73.66 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f85a96a-8d35-444e-a977-f8594e25a1ce")
+	)
+	(junction
+		(at 250.19 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31862e72-2d88-4f82-abdc-17ad5f8bede7")
+	)
+	(junction
+		(at 81.28 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3561709e-f770-4274-a5c7-d0255ae0873a")
+	)
+	(junction
+		(at 261.62 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b94d33-4c67-4b68-aa5a-dcecaf82dd8e")
+	)
+	(junction
+		(at 53.34 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c6eaa6b-4c74-4416-aee6-0e3cefb14500")
+	)
+	(junction
+		(at 58.42 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ce13fe0-de82-4947-b108-4ce1b5b36791")
+	)
+	(junction
+		(at 196.85 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f349930-4b92-43ff-b84d-80a4539aee6a")
+	)
+	(junction
+		(at 73.66 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45d33955-c475-4a71-85a2-d2f958e7f141")
+	)
+	(junction
+		(at 232.41 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a07b75d-4e31-45f1-bbab-e9439685dcef")
+	)
+	(junction
+		(at 58.42 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a18f4ed-e136-420b-9d35-573327c7eabc")
+	)
+	(junction
+		(at 73.66 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b265736-8d9b-4e08-8f60-bed348e5b974")
+	)
+	(junction
+		(at 26.67 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d4a5391-54aa-4599-88e0-c2ca30f7b951")
+	)
+	(junction
+		(at 247.65 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dcd967c-07b1-4110-a6ef-bf8a08029a94")
+	)
+	(junction
+		(at 73.66 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4df88558-546a-48aa-8a20-5a65b148a7f4")
+	)
+	(junction
+		(at 128.27 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50c92cf0-acf7-49ef-a619-1116c52de7cd")
+	)
+	(junction
+		(at 115.57 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d640bbb-8528-4a7f-86d7-cb25a6cf016a")
+	)
+	(junction
+		(at 218.44 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f9549a8-e2cd-4732-aa70-9329170509a2")
+	)
+	(junction
+		(at 72.39 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "776bb49e-ad3d-494a-9cf6-ee1c4465f9e0")
+	)
+	(junction
+		(at 53.34 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81dcc06a-f41e-411d-b7b8-5aa556b7d115")
+	)
+	(junction
+		(at 39.37 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83bd16b6-47f9-4bf1-af37-2fcbd6d3c4fa")
+	)
+	(junction
+		(at 110.49 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85fec818-7d8c-42b3-9ca3-d0657918326f")
+	)
+	(junction
+		(at 223.52 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "953f9ac1-8fef-456c-8ec6-0d90ec766739")
+	)
+	(junction
+		(at 26.67 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "971cd4ac-18e0-48f0-ab8f-49ff888667df")
+	)
+	(junction
+		(at 62.23 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "984538a4-5916-4e59-b6eb-18517bfa2d3b")
+	)
+	(junction
+		(at 39.37 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a397c1ec-af62-4859-a552-d0eeb317a208")
+	)
+	(junction
+		(at 256.54 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a644ee68-c6b8-4bd4-b93b-37a5ce58cb9f")
+	)
+	(junction
+		(at 64.77 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8b1c2b3-9b44-46b6-9137-fff338971224")
+	)
+	(junction
+		(at 73.66 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adb43d1e-fee3-40a9-af58-02d7bfa18491")
+	)
+	(junction
+		(at 53.34 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4fb40d5-aab3-4633-8659-4d3940e1ccc7")
+	)
+	(junction
+		(at 73.66 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7ca5b25-f3d9-4efc-b5d7-717ca9662ff5")
+	)
+	(junction
+		(at 128.27 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba7d4baa-e42e-4b54-9aa4-7a77866a8f92")
+	)
+	(junction
+		(at 279.4 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4dab903-3554-4d18-a48b-ceb623ac33a5")
+	)
+	(junction
+		(at 185.42 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf608e7d-0004-42c0-aede-95ba2d4e17ee")
+	)
+	(junction
+		(at 144.78 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e80de062-687e-4512-913e-89bf4efbc759")
+	)
+	(junction
+		(at 185.42 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f260f022-a3ff-4b86-8e11-74d79c63b21c")
+	)
+	(junction
+		(at 261.62 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd8222fa-688f-4572-a04e-0a194f19a80b")
+	)
+	(no_connect
+		(at 48.26 116.84)
+		(uuid "1b077181-e9ad-4e7f-9d6a-eb08253b83be")
+	)
+	(no_connect
+		(at 133.35 86.36)
+		(uuid "1cdaf83d-7d5a-4b33-9c22-964538e95851")
+	)
+	(no_connect
+		(at 190.5 86.36)
+		(uuid "98abfabe-f246-4f99-bd25-f929d200b7eb")
+	)
+	(wire
+		(pts
+			(xy 250.19 69.85) (xy 250.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0054e24a-e06a-4797-80b9-27f69a0e2454")
+	)
+	(wire
+		(pts
+			(xy 261.62 69.85) (xy 267.97 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011a90c4-2e9e-445a-9392-7319b5423820")
+	)
+	(wire
+		(pts
+			(xy 128.27 113.03) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0154f9c0-1437-43ff-868b-bfda742eda59")
+	)
+	(wire
+		(pts
+			(xy 62.23 22.86) (xy 80.01 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036c64f7-e336-4ab7-a821-8cb964901628")
+	)
+	(wire
+		(pts
+			(xy 196.85 99.06) (xy 208.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04de322b-c70e-4f2f-aa05-cf3bc99be3be")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 110.49 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068a6b8e-4030-4e2a-8ea4-efa7475dc157")
+	)
+	(wire
+		(pts
+			(xy 80.01 41.91) (xy 80.01 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0dc861-188b-4b37-ab3a-4f1c0ae938ba")
+	)
+	(wire
+		(pts
+			(xy 218.44 135.89) (xy 256.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ceaf601-375a-4dbd-a7a0-f98e675e25bb")
+	)
+	(wire
+		(pts
+			(xy 13.97 137.16) (xy 13.97 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d01b1d6-9c81-4159-8a0b-003cc757ebef")
+	)
+	(wire
+		(pts
+			(xy 48.26 121.92) (xy 53.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f463733-72c1-4ffe-9519-ee9c41d93c6f")
+	)
+	(wire
+		(pts
+			(xy 232.41 69.85) (xy 232.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc8b880-dea7-41d8-ab50-b537afd28312")
+	)
+	(wire
+		(pts
+			(xy 53.34 149.86) (xy 53.34 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ab5877-7d52-4828-8269-87136013b06a")
+	)
+	(wire
+		(pts
+			(xy 264.16 92.71) (xy 261.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b57167-f4f9-42f2-8eb0-a704e03e6db9")
+	)
+	(wire
+		(pts
+			(xy 218.44 54.61) (xy 218.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13dbc7fd-8129-45b9-8349-4877fb05defb")
+	)
+	(wire
+		(pts
+			(xy 173.99 104.14) (xy 173.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1664bc5e-562e-41f5-ac49-d554942bb371")
+	)
+	(wire
+		(pts
+			(xy 247.65 92.71) (xy 247.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ffcb42-45ff-467c-b7a6-2d3b43d0dc61")
+	)
+	(wire
+		(pts
+			(xy 80.01 22.86) (xy 80.01 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acdfc97-736e-4dd7-a82e-7b8d6ef2dc04")
+	)
+	(wire
+		(pts
+			(xy 275.59 69.85) (xy 279.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cceb78e-905d-4692-a4a9-4d69cebf3bf7")
+	)
+	(wire
+		(pts
+			(xy 53.34 149.86) (xy 39.37 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e300277-871c-4d28-808d-d34fcaee69e1")
+	)
+	(wire
+		(pts
+			(xy 66.04 124.46) (xy 72.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f08ee6c-d3b2-4270-b8f0-9ba51828b9e1")
+	)
+	(wire
+		(pts
+			(xy 128.27 104.14) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2179d412-aaad-4415-b7fd-66ad84db0a30")
+	)
+	(wire
+		(pts
+			(xy 223.52 46.99) (xy 223.52 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21919c12-8e57-4bb2-9e20-98878fdb8610")
+	)
+	(wire
+		(pts
+			(xy 236.22 106.68) (xy 232.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253bc8c4-f92c-4261-8750-dabc3e5e3d20")
+	)
+	(wire
+		(pts
+			(xy 247.65 87.63) (xy 250.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285db0c0-0432-4b6a-8794-8f1cce3594b2")
+	)
+	(wire
+		(pts
+			(xy 110.49 135.89) (xy 115.57 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3557f6-712e-49f7-b661-b16db98b9418")
+	)
+	(wire
+		(pts
+			(xy 26.67 149.86) (xy 26.67 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb74976-db0f-4137-88c8-20c3b88021c4")
+	)
+	(wire
+		(pts
+			(xy 128.27 99.06) (xy 128.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d619e05-29f0-4857-b833-5c04bcae7ae3")
+	)
+	(wire
+		(pts
+			(xy 73.66 109.22) (xy 73.66 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308d73d9-c10e-46dc-9578-ae17a05e682d")
+	)
+	(wire
+		(pts
+			(xy 243.84 69.85) (xy 250.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ffd950-5db4-4e88-8087-262a810342be")
+	)
+	(wire
+		(pts
+			(xy 208.28 113.03) (xy 208.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342328fc-053b-4d77-8b12-fc880a299b94")
+	)
+	(wire
+		(pts
+			(xy 130.81 87.63) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3644625c-49e0-4a4e-90e4-3382c8db7556")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 68.58 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c48154-412a-42f4-86bd-e39a1735f22d")
+	)
+	(wire
+		(pts
+			(xy 115.57 135.89) (xy 218.44 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a889c64-e687-4e11-907d-ca7b17340a17")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b38116f-fb96-4a0f-8115-df35cbda23c3")
+	)
+	(wire
+		(pts
+			(xy 261.62 107.95) (xy 267.97 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec05e09-6e8c-4853-abfb-219cac1afe9e")
+	)
+	(wire
+		(pts
+			(xy 86.36 124.46) (xy 86.36 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f52439e-748a-47a0-b483-00cb1fda528b")
+	)
+	(wire
+		(pts
+			(xy 264.16 87.63) (xy 261.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f912d90-8a00-4ce9-a0c8-311447c22d0c")
+	)
+	(wire
+		(pts
+			(xy 80.01 48.26) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425269ed-6db5-4c1c-ba13-c8e2a5788aee")
+	)
+	(wire
+		(pts
+			(xy 196.85 113.03) (xy 196.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a03850-1143-4f2b-b76f-5a29c86b0389")
+	)
+	(wire
+		(pts
+			(xy 128.27 99.06) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f8d5b3-e5ad-45d9-b6a3-4738c8d1d375")
+	)
+	(wire
+		(pts
+			(xy 128.27 54.61) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4531820e-0dc1-444f-b188-7bbdc12e9048")
+	)
+	(wire
+		(pts
+			(xy 100.33 76.2) (xy 100.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ad27af-e96f-46ef-8154-604fb37bb681")
+	)
+	(wire
+		(pts
+			(xy 39.37 149.86) (xy 26.67 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b70c1a-8c8d-4011-a2c1-77a3fd4b4e1f")
+	)
+	(wire
+		(pts
+			(xy 73.66 113.03) (xy 73.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491eb724-c4bd-4ff5-b7d9-20162bff0c76")
+	)
+	(wire
+		(pts
+			(xy 81.28 157.48) (xy 81.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdab4cf-50e5-42f5-a47e-8315f3cf693e")
+	)
+	(wire
+		(pts
+			(xy 232.41 90.17) (xy 232.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de49770-a202-496a-a1a9-4b3612e2a6e1")
+	)
+	(wire
+		(pts
+			(xy 144.78 113.03) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50916d51-4011-46fa-b145-2655b03555c5")
+	)
+	(wire
+		(pts
+			(xy 39.37 130.81) (xy 53.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5184df64-dc4c-4309-bc3b-7aa73eac00e5")
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 110.49 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5535c2f2-6b4a-4de9-bb06-8dc59929d22d")
+	)
+	(wire
+		(pts
+			(xy 279.4 90.17) (xy 279.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bc0953-999d-4e08-839c-6a461f1e0583")
+	)
+	(wire
+		(pts
+			(xy 67.31 91.44) (xy 73.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58885e6b-690c-4343-b5d1-415dac2887b1")
+	)
+	(wire
+		(pts
+			(xy 73.66 76.2) (xy 100.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58dd3fc5-2eca-4eb5-ba5e-fcf45efcc18a")
+	)
+	(wire
+		(pts
+			(xy 116.84 99.06) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c452236-c89a-418b-a002-f214afbefc6f")
+	)
+	(wire
+		(pts
+			(xy 72.39 134.62) (xy 72.39 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e07a55b-adbb-48ec-936a-c40f15126acf")
+	)
+	(wire
+		(pts
+			(xy 48.26 119.38) (xy 53.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e59777d-8789-41c0-80f9-2ae8a6dbc705")
+	)
+	(wire
+		(pts
+			(xy 41.91 48.26) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb90f60-9b74-4139-87b7-6a92fa8145ff")
+	)
+	(wire
+		(pts
+			(xy 81.28 144.78) (xy 85.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603d84ae-594e-49bb-b368-05f861762d12")
+	)
+	(wire
+		(pts
+			(xy 116.84 113.03) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b81755-68c8-401a-9a00-0de606092746")
+	)
+	(wire
+		(pts
+			(xy 176.53 46.99) (xy 185.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d0b565-07ec-4299-958b-2b33d7dd4860")
+	)
+	(wire
+		(pts
+			(xy 185.42 99.06) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a34e7b-656a-4d2d-bdfa-aef140afc142")
+	)
+	(wire
+		(pts
+			(xy 128.27 76.2) (xy 128.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69dd67dd-b822-43bc-946f-8abd8bf9666e")
+	)
+	(wire
+		(pts
+			(xy 72.39 124.46) (xy 86.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae7e3e8-1d73-42d3-91c3-63f660648075")
+	)
+	(wire
+		(pts
+			(xy 26.67 130.81) (xy 39.37 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b50a45c-fb65-4b8f-8432-b43184bdc062")
+	)
+	(wire
+		(pts
+			(xy 261.62 111.76) (xy 261.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d758bfe-2c2d-4f44-a93d-4c04685df718")
+	)
+	(wire
+		(pts
+			(xy 250.19 119.38) (xy 256.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4e63cc-2e97-4ccd-a0c4-42314b504237")
+	)
+	(wire
+		(pts
+			(xy 72.39 124.46) (xy 72.39 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703b2e73-7755-4d90-a5e5-8744a4eafd30")
+	)
+	(wire
+		(pts
+			(xy 58.42 22.86) (xy 62.23 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e4b7b7-9a4a-4c74-bea8-5053b38991cf")
+	)
+	(wire
+		(pts
+			(xy 13.97 149.86) (xy 13.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d876e0-9135-401b-9dca-2cd82eb95f9b")
+	)
+	(wire
+		(pts
+			(xy 73.66 87.63) (xy 73.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768e62cf-dd54-40e4-b2b3-00af6428268e")
+	)
+	(wire
+		(pts
+			(xy 208.28 99.06) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ee7143-f366-4d2e-9d78-59fe349998f1")
+	)
+	(wire
+		(pts
+			(xy 52.07 76.2) (xy 52.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2fe990-873f-46d8-b290-266df494022a")
+	)
+	(wire
+		(pts
+			(xy 73.66 121.92) (xy 73.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aba846d-7fd0-4c55-8982-8f102a53c80f")
+	)
+	(wire
+		(pts
+			(xy 247.65 106.68) (xy 243.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdd8810-19cd-43f2-9c4e-36ddac90fdc5")
+	)
+	(wire
+		(pts
+			(xy 110.49 46.99) (xy 110.49 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce749a3-7dec-4829-b643-bf338f3ebb2f")
+	)
+	(wire
+		(pts
+			(xy 185.42 99.06) (xy 196.85 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d287409-c0cb-4161-84da-54f13caf69b9")
+	)
+	(wire
+		(pts
+			(xy 116.84 104.14) (xy 116.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804241cf-7044-44f8-997d-5ce9ff4481e2")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813b353d-3784-40ad-8b46-ed1f93197cee")
+	)
+	(wire
+		(pts
+			(xy 26.67 149.86) (xy 13.97 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ad5de3-f8b6-4b81-bc07-6e7fd03ddf73")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e01e1d-8bc1-4042-8a55-af78c5f06a3c")
+	)
+	(wire
+		(pts
+			(xy 218.44 54.61) (xy 250.19 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e805df-4ca4-4feb-ab10-beaacfbd364c")
+	)
+	(wire
+		(pts
+			(xy 26.67 137.16) (xy 26.67 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a779caf-7a9f-4613-bfc1-d35cb8599742")
+	)
+	(wire
+		(pts
+			(xy 53.34 137.16) (xy 53.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac4ff2a-17a0-48f2-88d0-6a31ed8b495a")
+	)
+	(wire
+		(pts
+			(xy 73.66 66.04) (xy 73.66 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3d4d0c-b1aa-4028-8d34-86d326852bea")
+	)
+	(wire
+		(pts
+			(xy 73.66 99.06) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c451008-27b4-43e6-bcbd-53a4d94a58f2")
+	)
+	(wire
+		(pts
+			(xy 185.42 46.99) (xy 185.42 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d425c7-bb08-4858-bad1-ca9a8ce97fc6")
+	)
+	(wire
+		(pts
+			(xy 53.34 154.94) (xy 53.34 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c86265-6d08-4ba5-a5ea-28364b21238e")
+	)
+	(wire
+		(pts
+			(xy 39.37 130.81) (xy 39.37 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971db207-b2cc-4517-98f7-9a653651b960")
+	)
+	(wire
+		(pts
+			(xy 173.99 113.03) (xy 173.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d040bc-f0cb-4190-8677-864887db0549")
+	)
+	(wire
+		(pts
+			(xy 185.42 76.2) (xy 185.42 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4df987-78b1-4281-9a2d-102d595b1862")
+	)
+	(wire
+		(pts
+			(xy 53.34 121.92) (xy 53.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c55831-766f-452c-837b-c7631faf914e")
+	)
+	(wire
+		(pts
+			(xy 250.19 69.85) (xy 261.62 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24404ae-a402-4004-83b8-dc1f07660a66")
+	)
+	(wire
+		(pts
+			(xy 73.66 76.2) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d35bdf-a6c4-4545-9160-8de548fc093b")
+	)
+	(wire
+		(pts
+			(xy 13.97 130.81) (xy 26.67 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a455f278-11ee-467f-9a09-1b240400f204")
+	)
+	(wire
+		(pts
+			(xy 66.04 154.94) (xy 66.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45d0df7-4400-47dd-9c91-3938fa1fa966")
+	)
+	(wire
+		(pts
+			(xy 68.58 73.66) (xy 67.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5402f78-f82b-4795-8f9b-6cfd13f65e9a")
+	)
+	(wire
+		(pts
+			(xy 166.37 46.99) (xy 173.99 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60f96ea-ad19-4d61-8990-e15c140b8f6f")
+	)
+	(wire
+		(pts
+			(xy 279.4 107.95) (xy 275.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97c1019-f70b-4977-abec-8512497688ac")
+	)
+	(wire
+		(pts
+			(xy 218.44 97.79) (xy 218.44 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7ff25c-504c-488f-9019-ba711ff76954")
+	)
+	(wire
+		(pts
+			(xy 247.65 111.76) (xy 250.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13cc7df-799c-45f0-90ae-ab01c027123d")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24b3076-9b7c-4f40-9e76-1db6213181e6")
+	)
+	(wire
+		(pts
+			(xy 53.34 113.03) (xy 73.66 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39a891d-f1a8-4541-a8df-9a2ed94a7d00")
+	)
+	(wire
+		(pts
+			(xy 110.49 54.61) (xy 128.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b408c7fc-8dd1-4fa4-955a-bd62550d5fd2")
+	)
+	(wire
+		(pts
+			(xy 67.31 78.74) (xy 67.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b451a196-2d0f-4360-bc24-ec73b7ca7235")
+	)
+	(wire
+		(pts
+			(xy 166.37 54.61) (xy 166.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46a9507-611a-4ff5-a4c0-ef639e210f57")
+	)
+	(wire
+		(pts
+			(xy 261.62 92.71) (xy 261.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87a9f6c-ff8a-4a59-8c07-5ada654f427c")
+	)
+	(wire
+		(pts
+			(xy 96.52 144.78) (xy 96.52 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9bdfd2-4f15-4d47-b67b-1c7993cb8958")
+	)
+	(wire
+		(pts
+			(xy 53.34 154.94) (xy 66.04 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becabe21-236b-41e3-b76c-67fc9876b71c")
+	)
+	(wire
+		(pts
+			(xy 138.43 76.2) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf508afc-524a-4d8c-b402-a6e568f16ee8")
+	)
+	(wire
+		(pts
+			(xy 250.19 54.61) (xy 250.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c744b23e-6f40-4a34-a17e-67b607861900")
+	)
+	(wire
+		(pts
+			(xy 73.66 99.06) (xy 73.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc72e8c-3daf-454c-95ed-cb67909a9b41")
+	)
+	(wire
+		(pts
+			(xy 53.34 113.03) (xy 53.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc26da01-903c-4a4a-b949-9532a7c14b97")
+	)
+	(wire
+		(pts
+			(xy 256.54 119.38) (xy 261.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb4000e-7897-4dea-bd20-858b857f5037")
+	)
+	(wire
+		(pts
+			(xy 68.58 54.61) (xy 68.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d671dc79-09f0-4aea-a6bb-c970f4121560")
+	)
+	(wire
+		(pts
+			(xy 157.48 113.03) (xy 157.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7441a35-2589-4b73-9cec-bc5f0d6e5a3c")
+	)
+	(wire
+		(pts
+			(xy 86.36 99.06) (xy 86.36 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d898cf57-227b-4197-8143-102df5f56308")
+	)
+	(wire
+		(pts
+			(xy 110.49 135.89) (xy 110.49 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d964fd03-e07e-4d9f-9ace-0b549d902640")
+	)
+	(wire
+		(pts
+			(xy 198.12 76.2) (xy 198.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db15f8a5-28ee-41ac-a726-418a05baf32a")
+	)
+	(wire
+		(pts
+			(xy 279.4 69.85) (xy 279.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc39316-d22f-453e-9afd-7148a224f275")
+	)
+	(wire
+		(pts
+			(xy 236.22 69.85) (xy 232.41 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1fbdfe-9302-4b55-85d8-be7169050f92")
+	)
+	(wire
+		(pts
+			(xy 92.71 144.78) (xy 96.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd3d01f-2e5e-4f72-9102-ffd1c1d0b2ff")
+	)
+	(wire
+		(pts
+			(xy 261.62 87.63) (xy 261.62 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1bbf17-ea70-4955-8bfb-0c838c8ce442")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 73.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de74f690-1654-4ceb-9b4b-246c53d112e9")
+	)
+	(wire
+		(pts
+			(xy 185.42 76.2) (xy 198.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df65f54c-9717-4026-8ebc-9ec60a3beaa3")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfcc39b9-555f-4519-b55f-6d5335b759b9")
+	)
+	(wire
+		(pts
+			(xy 52.07 113.03) (xy 53.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e100831d-30e2-4601-8c1d-cc1c70d9be81")
+	)
+	(wire
+		(pts
+			(xy 185.42 54.61) (xy 218.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d25872-7c60-48c2-843f-5da13de58c19")
+	)
+	(wire
+		(pts
+			(xy 41.91 22.86) (xy 58.42 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4392a4a-45b4-4c7b-af30-c3c6b72b489d")
+	)
+	(wire
+		(pts
+			(xy 73.66 91.44) (xy 73.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5522272-efb7-44c7-b299-270c2bece635")
+	)
+	(wire
+		(pts
+			(xy 39.37 144.78) (xy 39.37 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc0e44e-1ebb-4da9-b289-3f0b07cc2420")
+	)
+	(wire
+		(pts
+			(xy 185.42 104.14) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2b33e1-9178-4def-a6a0-0787acee1fe3")
+	)
+	(wire
+		(pts
+			(xy 128.27 76.2) (xy 138.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f002a094-446d-4633-baf5-d3bd05810c0b")
+	)
+	(wire
+		(pts
+			(xy 81.28 157.48) (xy 72.39 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e236fd-49e5-4bba-9aee-4a239edbc9e5")
+	)
+	(wire
+		(pts
+			(xy 247.65 106.68) (xy 247.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e2c7f0-dae6-4a56-9285-5692d9951c09")
+	)
+	(wire
+		(pts
+			(xy 96.52 160.02) (xy 111.76 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f339cfab-d904-41f3-9884-cea83c22e892")
+	)
+	(wire
+		(pts
+			(xy 101.6 77.47) (xy 101.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45896e0-5f3f-4f84-9928-fb9eb8d0b64c")
+	)
+	(wire
+		(pts
+			(xy 196.85 99.06) (xy 196.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46c7657-7f1d-41da-a414-2940821af66c")
+	)
+	(wire
+		(pts
+			(xy 100.33 77.47) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cc2a8d-6418-4a7a-8c83-6e1e6334b1c1")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 58.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a35546-879c-4d93-a5ae-fd8e3647f14f")
+	)
+	(wire
+		(pts
+			(xy 157.48 104.14) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96924da-0949-4536-8b03-4647cb04a0a1")
+	)
+	(wire
+		(pts
+			(xy 187.96 86.36) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa891d26-3b40-4ca2-8184-bf12912b7836")
+	)
+	(wire
+		(pts
+			(xy 173.99 99.06) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd9a219-591f-4e15-9e0a-4da700819795")
+	)
+	(wire
+		(pts
+			(xy 256.54 119.38) (xy 256.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe605a24-9705-4bae-b011-5a37ab321521")
+	)
+	(wire
+		(pts
+			(xy 185.42 111.76) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5b6ac4-0974-4a10-bb49-71bbe7fcb026")
+	)
+	(hierarchical_label "V3"
+		(shape output)
+		(at 111.76 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31d5ee2b-83c6-40c1-bc32-ed2d8e38a319")
+	)
+	(hierarchical_label "VC2"
+		(shape output)
+		(at 110.49 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1d2e297-cf91-43d3-90f4-0b9d56b22510")
+	)
+	(hierarchical_label "VC1"
+		(shape output)
+		(at 223.52 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbadab5e-d9be-4d28-8d2d-846f16caca14")
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:GND")
+		(at 144.78 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03397aac-6cbc-4ca3-b296-53eca2c4d929")
+		(property "Reference" "#PWR060"
+			(at 144.78 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2a5eeeb-1ee6-482e-962b-fa061bc03678")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:GND")
+		(at 115.57 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d5857b4-661c-4d73-811d-def184d915c6")
+		(property "Reference" "#PWR022"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "439acc7d-7eef-4b82-9c11-5de1d7d68d2c")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:TL082")
+		(at 88.9 160.02 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14050764-4b6f-4990-bb46-043400920405")
+		(property "Reference" "U3"
+			(at 88.9 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 88.9 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:DIP-8_W7.62mm_Socket_LongPads"
+			(at 88.9 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 88.9 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 88.9 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 88.9 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 88.9 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 88.9 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 88.9 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "POLE=40 GAIN=100K VOFF=0"
+			(at 88.9 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "5f566e03-0fde-44b1-b9e1-e1bd15286132")
+		)
+		(pin "5"
+			(uuid "6781b323-df7d-491c-8231-41fd8fe0bea4")
+		)
+		(pin "1"
+			(uuid "89bc1fcc-97fc-49cb-8027-1ee41f15e972")
+		)
+		(pin "3"
+			(uuid "5ef66c0b-7d2a-4933-acfd-4691e765b9b8")
+		)
+		(pin "2"
+			(uuid "5ec44276-27f5-4a50-a6c9-70ff9ba915b4")
+		)
+		(pin "7"
+			(uuid "b592000b-2930-4c83-8272-a2f06cdd1dfc")
+		)
+		(pin "8"
+			(uuid "d4e8f61f-4035-40b0-af0d-5cdbed4c00f1")
+		)
+		(pin "4"
+			(uuid "3fc6abe6-f12e-4ab8-bc04-b43cfbc8c90c")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U3")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:GND")
+		(at 128.27 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1493f457-2195-4607-85f5-413b93f441de")
+		(property "Reference" "#PWR023"
+			(at 128.27 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afb27b8b-4385-494c-a0c8-bc193b8f343c")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:Conn_01x03")
+		(at 130.81 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "158bf328-1f76-48c5-b728-efa2421d0907")
+		(property "Reference" "J9"
+			(at 135.89 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 135.89 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:PinHeader_1x03_P2.54mm_Vertical"
+			(at 130.81 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 130.81 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
+			(at 130.81 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 135.89 82.5499 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Params" "type=\"J\" model=\"Conn_01x03\" lib=\"\""
+			(at 130.81 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a83e8f19-ccff-4cf1-9a6a-89ebac9809ee")
+		)
+		(pin "1"
+			(uuid "83e7e008-cd38-4c03-96d1-bde29f88e3db")
+		)
+		(pin "2"
+			(uuid "65efb398-01b2-4ee8-b215-b2eb95816a22")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "J9")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:GND")
+		(at 157.48 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c97611e-6454-407f-9add-b026f9f1b7b5")
+		(property "Reference" "#PWR061"
+			(at 157.48 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe346bd5-fb92-4a57-8eeb-6cd10e71bd6e")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:GND")
+		(at 208.28 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ea45c98-4371-4db0-94cd-2b0592d69984")
+		(property "Reference" "#PWR065"
+			(at 208.28 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38c01a2a-2b11-41b4-9f87-82b67742703f")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:R")
+		(at 73.66 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f57c16a-be18-4f02-a682-bb998928c7c6")
+		(property "Reference" "R8"
+			(at 76.2 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 76.2 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 71.882 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 73.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 73.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2622a830-4aa2-4168-a74b-be1ff7b82f6d")
+		)
+		(pin "2"
+			(uuid "4abd565e-a939-4cfa-b93d-39df0e86f1af")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R8")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 196.85 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a461470-87d3-4ee2-b0ad-de020c8a9e69")
+		(property "Reference" "C57"
+			(at 200.406 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 200.406 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 197.8152 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 196.85 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 196.85 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dbe0ab60-b015-4e08-b63c-e3b8dd4f072a")
+		)
+		(pin "1"
+			(uuid "0a9e02b6-58e2-4e11-bca7-9c612893f099")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C57")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:Conn_01x02")
+		(at 77.47 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "385fed10-8e86-4f31-a07e-bde060b6b5ee")
+		(property "Reference" "J5"
+			(at 80.01 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 80.01 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:PinHeader_1x02_P2.54mm_Vertical"
+			(at 77.47 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2"
+			(at 77.47 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 77.47 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"J\" model=\"Conn_01x02\" lib=\"\""
+			(at 77.47 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "838ef159-6aee-464f-968e-2b27c0393aea")
+		)
+		(pin "1"
+			(uuid "26eaa3f1-c4a8-45fe-8c76-be3a5e3ebfce")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "J5")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:R")
+		(at 261.62 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c81b907-c1a7-40a4-b66b-b387613c293d")
+		(property "Reference" "R6"
+			(at 264.16 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 264.16 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 259.842 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2622a830-4aa2-4168-a74b-be1ff7b82f6e")
+		)
+		(pin "2"
+			(uuid "4abd565e-a939-4cfa-b93d-39df0e86f1b0")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R6")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:R")
+		(at 240.03 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ceaabbd-0d0e-44c4-8836-cf88282648f7")
+		(property "Reference" "R1"
+			(at 240.03 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 240.03 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 240.03 71.628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 240.03 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 240.03 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e42b780-0b4b-49c5-b78a-795b7a03da59")
+		)
+		(pin "2"
+			(uuid "4b4d0b55-6307-42be-8f72-3be190e1c6e0")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R1")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:GND")
+		(at 116.84 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43b33226-c66e-4195-ab26-e8b930bb14fc")
+		(property "Reference" "#PWR064"
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2baa7ef-c6c1-4cd8-81f3-240350ac6bd4")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 116.84 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46fc62cc-8052-423b-9819-d2750fa67609")
+		(property "Reference" "C51"
+			(at 121.412 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000n"
+			(at 121.412 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 117.8052 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 116.84 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 116.84 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b36751e4-3712-464d-bfd1-2097ce74464c")
+		)
+		(pin "1"
+			(uuid "caf5dc55-63b9-4872-b93d-cc3d6db5638e")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C51")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:Conn_01x03")
+		(at 43.18 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47bbc806-e712-4ca9-a7bd-3a357419f59d")
+		(property "Reference" "J12"
+			(at 43.18 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 43.18 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:PinHeader_1x03_P2.54mm_Vertical"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 43.18 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"J\" model=\"Conn_01x03\" lib=\"\""
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d5c37371-ccb6-4f3c-b8e0-2898d0872e15")
+		)
+		(pin "1"
+			(uuid "79521f48-0d79-4efe-9bc3-8a5b0b338d01")
+		)
+		(pin "2"
+			(uuid "e6172fcb-bdfb-4c28-9682-ebfe7a4ef33a")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "J12")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:GND")
+		(at 196.85 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fdc751c-9c43-43d4-b3e4-399964acf2bd")
+		(property "Reference" "#PWR062"
+			(at 196.85 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "889b4b1c-c5c9-4799-acb9-52e154df8729")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:TL082")
+		(at 271.78 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5104ca40-4a95-43ef-bde7-596674d9f764")
+		(property "Reference" "U2"
+			(at 271.78 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 271.526 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:DIP-8_W7.62mm_Socket_LongPads"
+			(at 271.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 271.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 271.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 271.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 271.78 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 271.78 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 271.78 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "POLE=40 GAIN=100K VOFF=0"
+			(at 271.78 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "b2256046-b960-4ab7-809b-d6485b33a8e1")
+		)
+		(pin "8"
+			(uuid "273a18b1-6d77-4597-9a14-9695d8ee0bee")
+		)
+		(pin "4"
+			(uuid "16805797-5138-4b8c-94e8-120c4dd442a6")
+		)
+		(pin "1"
+			(uuid "e76727b0-4aaf-4dd2-aa46-5b71ebe4ef94")
+		)
+		(pin "7"
+			(uuid "6b6a9a21-4b3c-45fd-a285-2d52569c7574")
+		)
+		(pin "3"
+			(uuid "8c00404b-35a5-4e10-8927-4d0c58c9e493")
+		)
+		(pin "6"
+			(uuid "733fb3d0-23ed-4bb8-88a3-13332dfeb455")
+		)
+		(pin "2"
+			(uuid "92eed291-58ce-491e-a9c1-0083895c8ff3")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U2")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 185.42 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "539035d0-cb28-4603-9fb6-25d4a173e46a")
+		(property "Reference" "C56"
+			(at 189.23 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 189.23 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 186.3852 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 185.42 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 185.42 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4c1e7e27-18b1-4af3-bc14-bd3f2a35136c")
+		)
+		(pin "1"
+			(uuid "5f33dd6a-04cd-442d-9bb8-b5c685c8b419")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C56")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:GND")
+		(at 81.28 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "540e9ce3-a7ac-4918-af84-6dde29c40e99")
+		(property "Reference" "#PWR021"
+			(at 81.28 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77b65ee2-7730-42fa-9a39-c54eb2731c3a")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:Conn_01x02")
+		(at 176.53 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57f2125b-8f80-4a0d-893d-5652d2365614")
+		(property "Reference" "J6"
+			(at 179.07 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 179.07 53.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:PinHeader_1x02_P2.54mm_Vertical"
+			(at 176.53 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 176.53 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2"
+			(at 176.53 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 179.07 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"J\" model=\"Conn_01x02\" lib=\"\""
+			(at 176.53 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "23759cbc-7fc0-4838-963a-b62f1a5c4a74")
+		)
+		(pin "1"
+			(uuid "71b79b08-8c42-4b5b-8016-58408b6385b1")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "J6")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 39.37 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ca88057-833f-445b-995a-af9a0d29d8af")
+		(property "Reference" "C61"
+			(at 43.18 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000n"
+			(at 43.18 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 40.3352 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 39.37 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 39.37 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "558a67b8-6f6f-42cb-8be2-676885932860")
+		)
+		(pin "1"
+			(uuid "98847181-9a4c-4e6c-8ced-e49590652ce4")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C61")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:Conn_01x03")
+		(at 187.96 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d694659-1f6a-4aa7-ae4e-1a091f736cae")
+		(property "Reference" "J8"
+			(at 193.04 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 193.04 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:PinHeader_1x03_P2.54mm_Vertical"
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 193.04 82.5499 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Params" "type=\"J\" model=\"Conn_01x03\" lib=\"\""
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7d9b8ba-e346-4f5d-ad9b-3559ed8d11cc")
+		)
+		(pin "3"
+			(uuid "68201ecb-c313-46e6-a942-882f355b3b1f")
+		)
+		(pin "1"
+			(uuid "1f4689e9-a1b8-4df0-94f7-e020ecb2e5c8")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "J8")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 173.99 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62f641df-146f-46ed-81f0-944607fbb291")
+		(property "Reference" "C55"
+			(at 177.038 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 177.038 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 174.9552 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 173.99 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 173.99 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 173.99 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5f8f1490-f011-4d79-85db-22c0c9ac14df")
+		)
+		(pin "1"
+			(uuid "227d1542-da5f-4711-800f-bb84e50393ba")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C55")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:R")
+		(at 271.78 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68b95344-174b-45e7-a254-77a260c8ba4a")
+		(property "Reference" "R5"
+			(at 271.78 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22k"
+			(at 271.78 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 271.78 109.728 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 271.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 271.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 271.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "195fb194-e0e8-4648-ad73-1121ffcd5952")
+		)
+		(pin "2"
+			(uuid "7dd38005-7d8e-4eaf-b21f-0ddb9ad6aa95")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R5")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 157.48 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c43c81e-4c70-424d-afc9-75fa9ae33125")
+		(property "Reference" "C54"
+			(at 162.052 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000n"
+			(at 162.052 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 158.4452 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 157.48 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 157.48 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f12a072e-3699-4cae-9aef-438af65c4f45")
+		)
+		(pin "1"
+			(uuid "e44bf44f-f4f2-4805-87aa-6615780770a5")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C54")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:R")
+		(at 271.78 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ef8b77d-0bc3-47c0-bb67-b36441a81867")
+		(property "Reference" "R4"
+			(at 271.78 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22k"
+			(at 271.78 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 271.78 71.628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 271.78 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 271.78 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 271.78 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "336111b8-b85f-4bc2-83b5-453a2caa5f8a")
+		)
+		(pin "1"
+			(uuid "e30a54ca-bb91-4bbc-b7b7-61da30529dd2")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R4")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-9V")
+		(at 41.91 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b06c7ee-e446-4045-a67a-57452726025c")
+		(property "Reference" "#PWR020"
+			(at 41.91 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-9V"
+			(at 44.45 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-9V\""
+			(at 41.91 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3348bb79-20ac-4218-ad0b-c7fdc3f732b2")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:TL082")
+		(at 55.88 30.48 0)
+		(mirror y)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8dabed3a-652d-4597-8474-b39ae1bc75d4")
+		(property "Reference" "U1"
+			(at 55.88 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 55.88 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:DIP-8_W7.62mm_Socket_LongPads"
+			(at 55.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 55.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 55.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 55.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 55.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 55.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 55.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "POLE=40 GAIN=100K VOFF=0"
+			(at 55.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "732ed052-6b5d-4fee-ba8a-79eebbf50a24")
+		)
+		(pin "1"
+			(uuid "99f38ec3-b3cb-48a3-915d-618f2f5e90d1")
+		)
+		(pin "8"
+			(uuid "c7f77887-d63d-4da1-a473-4e95c1fd9205")
+		)
+		(pin "4"
+			(uuid "b603a01e-1c79-404e-871d-000f5a53af59")
+		)
+		(pin "6"
+			(uuid "ca40caa8-6116-4cd5-a439-80985f0843cd")
+		)
+		(pin "5"
+			(uuid "c26953ea-d0f8-44d3-bba8-56b29c266e19")
+		)
+		(pin "7"
+			(uuid "c98a5622-354b-4da3-b33b-5809c510545b")
+		)
+		(pin "3"
+			(uuid "976573ac-de0f-435d-94b7-5be5b8f138cc")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U1")
+					(unit 3)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:GND")
+		(at 185.42 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab71cfe2-f796-4916-b12b-634c0b625c66")
+		(property "Reference" "#PWR024"
+			(at 185.42 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afb27b8b-4385-494c-a0c8-bc193b8f343d")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 208.28 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b124435d-2c5e-4f14-8b8c-958984bc60e2")
+		(property "Reference" "C58"
+			(at 211.836 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 211.836 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 209.2452 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 208.28 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 208.28 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "05e1e992-34ec-48ce-b47f-44d4ea4e4130")
+		)
+		(pin "1"
+			(uuid "e2f0cb3e-7545-4f4c-83ac-34ed0c13b925")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C58")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:GND")
+		(at 173.99 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2c9e140-bd22-47ec-8fd9-82f2f11f67d5")
+		(property "Reference" "#PWR063"
+			(at 173.99 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03c2c676-b3e6-4c1d-a2f4-f5a64a8aa07a")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 26.67 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3284556-92c2-4d36-b855-d52bed53c6b1")
+		(property "Reference" "C60"
+			(at 30.48 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000n"
+			(at 30.48 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 27.6352 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 26.67 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 26.67 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 26.67 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9d0d088a-71c6-42a3-8315-bcf5c2a5f298")
+		)
+		(pin "1"
+			(uuid "f298bdfa-629c-4122-bd30-26f35bb83441")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C60")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:PWR_FLAG")
+		(at 64.77 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b32ed09f-9c75-4584-b737-fe023878d90b")
+		(property "Reference" "#FLG08"
+			(at 64.77 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 67.31 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 64.77 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12d30adc-170c-4579-b317-8f03f3687143")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 41.91 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b58018a4-d116-4baf-8005-9f8013a11231")
+		(property "Reference" "#PWR019"
+			(at 41.91 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9V"
+			(at 44.45 21.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 41.91 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "178ab882-d91f-4d70-aecc-4e769681cc29")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:R")
+		(at 73.66 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b64af3f8-c729-4b1d-b31e-19dedd469aa2")
+		(property "Reference" "R7"
+			(at 76.2 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 76.2 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 71.882 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2622a830-4aa2-4168-a74b-be1ff7b82f70")
+		)
+		(pin "2"
+			(uuid "4abd565e-a939-4cfa-b93d-39df0e86f1b2")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R7")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 218.44 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7076bdd-2c47-4c58-9097-1f1199adc676")
+		(property "Reference" "C1"
+			(at 222.25 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 222.25 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 219.4052 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 218.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 218.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 218.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f34e478-6903-443c-82e2-930c72faa10c")
+		)
+		(pin "1"
+			(uuid "a751dbf2-20ca-4a8b-a240-e3d221870db7")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C1")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:R")
+		(at 250.19 115.57 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7aae4dd-bac6-4260-86ab-11e77fb9054d")
+		(property "Reference" "R3"
+			(at 252.73 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 252.73 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 251.968 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 250.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 250.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 250.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a029edf7-1242-42d7-8716-546c84431da0")
+		)
+		(pin "2"
+			(uuid "efd11bdb-f04c-4113-a41c-e927a8c865ab")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R3")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 144.78 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b97e32b3-b71d-47dc-ae80-905bc9dfebe6")
+		(property "Reference" "C53"
+			(at 148.082 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000n"
+			(at 148.082 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 145.7452 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 144.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 144.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7115a3f9-1860-4b2b-8168-a32d12ba6940")
+		)
+		(pin "1"
+			(uuid "fb4dcd19-1af1-4861-b626-cccd13343e17")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C53")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:TL082")
+		(at 59.69 76.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfebd6da-2f6a-4b6b-bdfe-e514bdedb109")
+		(property "Reference" "U1"
+			(at 59.69 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 59.69 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:DIP-8_W7.62mm_Socket_LongPads"
+			(at 59.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 59.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 59.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 59.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 59.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 59.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 59.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "POLE=40 GAIN=100K VOFF=0"
+			(at 59.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b4e3dfc7-7ec5-4326-8247-acb0ceae398c")
+		)
+		(pin "1"
+			(uuid "0054fb62-8517-4049-8599-31b552aaba45")
+		)
+		(pin "8"
+			(uuid "c7f77887-d63d-4da1-a473-4e95c1fd9206")
+		)
+		(pin "4"
+			(uuid "b603a01e-1c79-404e-871d-000f5a53af5a")
+		)
+		(pin "6"
+			(uuid "ca40caa8-6116-4cd5-a439-80985f0843ce")
+		)
+		(pin "5"
+			(uuid "c26953ea-d0f8-44d3-bba8-56b29c266e1a")
+		)
+		(pin "7"
+			(uuid "c98a5622-354b-4da3-b33b-5809c510545c")
+		)
+		(pin "3"
+			(uuid "c1ccd11f-a700-4b1a-876b-4dbb5a56f602")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U1")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:R")
+		(at 73.66 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2a17814-af7e-4bab-844c-84af0021f8bb")
+		(property "Reference" "R9"
+			(at 76.2 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 76.2 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 71.882 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 73.66 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 73.66 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2622a830-4aa2-4168-a74b-be1ff7b82f71")
+		)
+		(pin "2"
+			(uuid "4abd565e-a939-4cfa-b93d-39df0e86f1b3")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R9")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 73.66 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6fe7473-9ca5-48ff-b9f9-45f774ee5e0f")
+		(property "Reference" "C3"
+			(at 77.47 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 77.47 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 74.6252 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 73.66 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 73.66 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f34e478-6903-443c-82e2-930c72faa10d")
+		)
+		(pin "1"
+			(uuid "a751dbf2-20ca-4a8b-a240-e3d221870db8")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C3")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:TL082")
+		(at 93.98 113.03 0)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0c66b1d-86e1-4c71-be29-e4e9aa065ac5")
+		(property "Reference" "U1"
+			(at 93.98 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 93.98 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:DIP-8_W7.62mm_Socket_LongPads"
+			(at 93.98 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 93.98 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 93.98 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 93.98 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 93.98 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 93.98 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 93.98 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "POLE=40 GAIN=100K VOFF=0"
+			(at 93.98 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b4e3dfc7-7ec5-4326-8247-acb0ceae398d")
+		)
+		(pin "1"
+			(uuid "0054fb62-8517-4049-8599-31b552aaba46")
+		)
+		(pin "8"
+			(uuid "c7f77887-d63d-4da1-a473-4e95c1fd9207")
+		)
+		(pin "4"
+			(uuid "b603a01e-1c79-404e-871d-000f5a53af5b")
+		)
+		(pin "6"
+			(uuid "ca40caa8-6116-4cd5-a439-80985f0843cf")
+		)
+		(pin "5"
+			(uuid "c26953ea-d0f8-44d3-bba8-56b29c266e1b")
+		)
+		(pin "7"
+			(uuid "c98a5622-354b-4da3-b33b-5809c510545d")
+		)
+		(pin "3"
+			(uuid "c1ccd11f-a700-4b1a-876b-4dbb5a56f603")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U1")
+					(unit 2)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:TL082")
+		(at 77.47 34.29 0)
+		(mirror y)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d779464e-3be3-478d-ae95-d8026ad84691")
+		(property "Reference" "U2"
+			(at 81.28 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL082"
+			(at 81.28 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:DIP-8_W7.62mm_Socket_LongPads"
+			(at 77.47 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 77.47 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 77.47 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 77.47 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 81.28 33.0199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 81.28 35.5599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 74.676 29.972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Params" "POLE=40 GAIN=100K VOFF=0"
+			(at 81.28 40.6399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5"
+			(uuid "43e99cb8-be24-470e-a834-82aa7eb0735d")
+		)
+		(pin "8"
+			(uuid "273a18b1-6d77-4597-9a14-9695d8ee0bef")
+		)
+		(pin "4"
+			(uuid "16805797-5138-4b8c-94e8-120c4dd442a7")
+		)
+		(pin "1"
+			(uuid "e76727b0-4aaf-4dd2-aa46-5b71ebe4ef95")
+		)
+		(pin "7"
+			(uuid "cb6d6128-d58d-41dc-8d9f-0461917f5d0c")
+		)
+		(pin "3"
+			(uuid "8c00404b-35a5-4e10-8927-4d0c58c9e494")
+		)
+		(pin "6"
+			(uuid "b3f0472d-f0c1-4af9-9c77-9b66c0bff765")
+		)
+		(pin "2"
+			(uuid "92eed291-58ce-491e-a9c1-0083895c8ff4")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U2")
+					(unit 3)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 13.97 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8d8d57a-fcb6-4ab9-92ac-7f3eac85bd03")
+		(property "Reference" "C59"
+			(at 17.78 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000n"
+			(at 17.78 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 14.9352 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 13.97 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 13.97 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 13.97 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d63feb3b-5fb2-4540-94bf-dc426663023d")
+		)
+		(pin "1"
+			(uuid "a12bf824-2a9d-40af-ba4a-34d427d34ab5")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C59")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:PWR_FLAG")
+		(at 62.23 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddcfa51d-afa5-4a1c-9117-342033e4889c")
+		(property "Reference" "#FLG07"
+			(at 62.23 20.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 64.77 21.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffd17e70-8e18-499a-9c10-cf982693bae9")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:R")
+		(at 240.03 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e130d04d-cd6f-4a52-b4be-e9a5bf98e552")
+		(property "Reference" "R2"
+			(at 240.03 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 240.03 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 240.03 108.458 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 240.03 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 240.03 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78984df7-12c8-4752-91ef-4ab3a3665808")
+		)
+		(pin "2"
+			(uuid "29d7f4b2-dd6c-4e5f-af77-6e39f2bcd011")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R2")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:TL082")
+		(at 240.03 90.17 0)
+		(mirror y)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec6082e0-8099-406e-b261-13beab331fae")
+		(property "Reference" "U2"
+			(at 240.538 82.296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 240.538 84.328 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:DIP-8_W7.62mm_Socket_LongPads"
+			(at 240.03 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 240.03 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 240.03 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 240.03 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 240.03 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 240.03 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 240.03 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "POLE=40 GAIN=100K VOFF=0"
+			(at 240.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "b2256046-b960-4ab7-809b-d6485b33a8e2")
+		)
+		(pin "8"
+			(uuid "273a18b1-6d77-4597-9a14-9695d8ee0bf0")
+		)
+		(pin "4"
+			(uuid "16805797-5138-4b8c-94e8-120c4dd442a8")
+		)
+		(pin "1"
+			(uuid "e76727b0-4aaf-4dd2-aa46-5b71ebe4ef96")
+		)
+		(pin "7"
+			(uuid "6b6a9a21-4b3c-45fd-a285-2d52569c7575")
+		)
+		(pin "3"
+			(uuid "8c00404b-35a5-4e10-8927-4d0c58c9e495")
+		)
+		(pin "6"
+			(uuid "733fb3d0-23ed-4bb8-88a3-13332dfeb456")
+		)
+		(pin "2"
+			(uuid "92eed291-58ce-491e-a9c1-0083895c8ff5")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U2")
+					(unit 2)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 53.34 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f06e5324-71c5-4736-b5f3-fa3c48536636")
+		(property "Reference" "C62"
+			(at 57.15 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000n"
+			(at 57.15 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 54.3052 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 53.34 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 53.34 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2c2b7980-b6a4-470a-b6cc-9d7f7fdbaec8")
+		)
+		(pin "1"
+			(uuid "2cba1303-59c6-4615-a095-f68921e4f85c")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C62")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 128.27 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3739a43-3e5a-4f45-aa79-13c8baaa7d16")
+		(property "Reference" "C52"
+			(at 132.842 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000n"
+			(at 132.842 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 129.2352 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 128.27 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 128.27 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b958bfd7-1090-454d-a533-9c6fe90a5fd1")
+		)
+		(pin "1"
+			(uuid "b91f3708-7f16-44ff-8d87-3f255e12a7b0")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C52")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:R")
+		(at 88.9 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdaecfe6-6fe0-4d84-bf18-5f881113e975")
+		(property "Reference" "R10"
+			(at 88.9 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 88.9 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 88.9 146.558 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 88.9 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 88.9 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b34095cc-1659-47b2-b4d4-fa8286d2756a")
+		)
+		(pin "1"
+			(uuid "487ff2ab-d833-47f1-b133-2dcebffafc25")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R10")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "composants-Phelma-S5:C")
+		(at 110.49 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feed0f3b-485e-4af4-a580-0e2224fefb1d")
+		(property "Reference" "C2"
+			(at 114.3 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 114.3 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_TR_PHELMA:CONDENSATEUR_5.08MM"
+			(at 111.4552 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 110.49 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 110.49 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f34e478-6903-443c-82e2-930c72faa10e")
+		)
+		(pin "1"
+			(uuid "a751dbf2-20ca-4a8b-a240-e3d221870db9")
+		)
+		(instances
+			(project "Chaos101"
+				(path "/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C2")
+					(unit 1)
+					(variant
+						(name "No_sim")
+					)
+				)
+			)
+			(project ".kicad_sch"
+				(path "/94624dab-cbd8-4407-880e-2e73ed4d2f3e/6f33efe0-b8f9-45a3-b875-8aceb2d6fafc/c714365d-0d0b-441b-b764-c62baee1a822"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

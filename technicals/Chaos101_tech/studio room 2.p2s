@@ -1,0 +1,94 @@
+lighting 
+directional
+version 3
+longitude -15
+latitude 45
+distance 0.552626
+ambient 0.000000
+brightness 0.400000
+specularity 0.400000
+color 1.000000 1.000000 1.000000
+locked 0
+keep 0
+disabled 0
+feature_name Directional1
+pv_enabled 1
+pv_brightness 1.000000
+pv_shadow_enabled 1
+pv_shadow_softness 0.122173
+pv_shadow_quality 100.000000
+end_light
+directional
+version 3
+longitude -60.000000
+latitude 0.000000
+distance 0.552626
+ambient 0.000000
+brightness 0.300000
+specularity 0.300000
+color 1.000000 1.000000 1.000000
+locked 0
+keep 0
+disabled 0
+feature_name Directional2
+pv_enabled 0
+pv_brightness 1.000000
+pv_shadow_enabled 1
+pv_shadow_softness 0.000000
+pv_shadow_quality 16.000000
+end_light
+directional
+version 3
+longitude 30.000000
+latitude -20.000000
+distance 0.552626
+ambient 0.000000
+brightness 0.300000
+specularity 0.300000
+color 1.000000 1.000000 1.000000
+locked 0
+keep 0
+disabled 0
+feature_name Directional3
+pv_enabled 0
+pv_brightness 1.000000
+pv_shadow_enabled 1
+pv_shadow_softness 0.000000
+pv_shadow_quality 16.000000
+end_light
+lighting_end 
+shadow 
+transparent 0 0 
+environment 
+showroom 
+north nonvisible nonreflective "Materials\plastic\high gloss\default plastic.p2m"
+without_mapping
+south nonvisible nonreflective "Materials\plastic\high gloss\default plastic.p2m"
+without_mapping
+east nonvisible nonreflective "Materials\plastic\high gloss\default plastic.p2m"
+without_mapping
+west nonvisible nonreflective "Materials\plastic\high gloss\default plastic.p2m"
+without_mapping
+ceiling nonvisible nonreflective "Materials\plastic\high gloss\default plastic.p2m"
+without_mapping
+floor visible reflective "Materials\miscellaneous\studio materials\reflective shadow floor.p2m"
+without_mapping
+end_textures
+offset 0.0
+end_positions
+model xz_plane
+background 
+image "\images\textures\background\morning fog.png"
+none 
+background_multiplier 1.000000
+background_environment 
+image "\images\textures\background\studio_room_2.hdr"
+spherical_env 
+environment_multipliers 1 0.5 
+sw_scene_rotating_envmap 1
+environment_rotation 0.000000 
+floor_reflectivity 0.800000 
+pv_background_image_brightness 1.000000 
+pv_rendering_brightness 1.000000 
+pv_scene_reflectivity 1.000000 
+end 

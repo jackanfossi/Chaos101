@@ -1,0 +1,5 @@
+.MODEL NSPW500BS D 
++ IS = .27n
++ N = 6.79 
++ RS = 5.65 
++ CJO = 42p
