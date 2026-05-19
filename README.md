@@ -1,5 +1,10 @@
 # <img src="technicals/logochaos101.png" width="120" align="center"> Chaos 101
 
+
+<p align="center">
+  <img src="technicals/image.png" width="600" alt="Chaos 101 Ecosystem">
+</p>
+
 Welcome to **Chaos 101**, an interactive project developed at **Grenoble INP - Phelma** to bridge the gap between abstract mathematics and physical reality.
 
 We provide a tangible educational experience to explore how deterministic rules can lead to completely unpredictable behavior. Through our custom electronic circuit and Wi-Fi visualization system, you can discover the **"order hidden behind chaos"** and its vital role in modern technologies like secure data encryption.
